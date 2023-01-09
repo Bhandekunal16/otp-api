@@ -5,10 +5,10 @@
     "containerId": "",
     "name": "localhost:3000",
     "url": "localhost:3000",
-    "method": "GET",
+    "method": "POST",
     "sortNum": 0,
     "created": "2023-01-04T12:41:34.393Z",
-    "modified": "2023-01-04T12:51:32.419Z",
+    "modified": "2023-01-09T04:39:32.755Z",
     "headers": [],
     "params": [],
     "tests": []
