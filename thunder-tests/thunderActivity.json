@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "78b9de13-e3d8-444b-80ec-9a208fa8b9f0",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000",
+    "url": "localhost:3000",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-01-04T12:41:34.393Z",
+    "modified": "2023-01-04T12:51:32.419Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f250aff6-aca8-4625-a63e-ef5167b5541a",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://www.thunderclient.com/welcome",
+    "url": "localhost:3000",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-01-05T10:52:38.844Z",
+    "modified": "2023-01-05T10:56:12.320Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
