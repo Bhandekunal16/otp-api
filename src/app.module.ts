@@ -1,5 +1,9 @@
 import { Module } from '@nestjs/common';
-import { ClientProxyFactory, ClientsModule, Transport } from '@nestjs/microservices';
+import {
+  ClientProxyFactory,
+  ClientsModule,
+  Transport,
+} from '@nestjs/microservices';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
@@ -16,7 +20,8 @@ import { AppService } from './app.service';
     ]),
   ],
   controllers: [AppController],
-  providers: [AppService,
+  providers: [
+    AppService,
     {
       provide: 'WORKER_SERVICE',
       useFactory: () => {
@@ -29,6 +34,7 @@ import { AppService } from './app.service';
         });
       },
       inject: [AppService],
-    },],
+    },
+  ],
 })
-export class AppModule { }
+export class AppModule {}
